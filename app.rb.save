@@ -84,6 +84,6 @@ class WordGuesserApp < Sinatra::Base
     if @game.check_win_or_lose != :lose
        redirect '/show'
     end
-    erb :lose # You may change/remove this line
+   erb :lose # You may change/remove this line
   end
 end
